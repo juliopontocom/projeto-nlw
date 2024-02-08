@@ -1,96 +1,95 @@
-const perguntas = [ 
-    // array de 10 objetos que serao as perguntas
-    {
-      pergunta: 'Qual é a palavra-chave utilizada para declarar uma variável em JavaScript?',
-      respostas: [ // array de 3 possiveis respostas
-        'var',
-        'let',
-        'const'
-      ],
-      correta: 2 //opcao da resposta correta em index do array
-    },
-    {
-      pergunta: 'Como você escreve um comentário de uma única linha em JavaScript?',
-      respostas: [
-        '// Comentário',
-        '-- Comentário',
-        '# Comentário'
-      ],
-      correta: 0
-    },
-    {
-      pergunta: 'Qual é a função do operador "===" em JavaScript?',
-      respostas: [
-        'Compara o valor e o tipo de duas variáveis',
-        'Compara apenas o valor de duas variáveis',
-        'Compara apenas o tipo de duas variáveis'
-      ],
-      correta: 0
-    },
-    {
-      pergunta: 'Como você adiciona um elemento ao final de um array em JavaScript?',
-      respostas: [
-        'array.unshift(elemento)',
-        'array.push(elemento)',
-        'array.add(elemento)'
-      ],
-      correta: 1
-    },
-    {
-      pergunta: 'O que o método "parseInt()" faz em JavaScript?',
-      respostas: [
-        'Converte uma string para minúsculas',
-        'Converte uma string para maiúsculas',
-        'Converte uma string para um número inteiro'
-      ],
-      correta: 2
-    },
-    {
-      pergunta: 'Qual é a função do método "querySelector()"?',
-      respostas: [
-        'Seleciona todos os elementos com a classe especificada',
-        'Seleciona o primeiro elemento com a classe especificada',
-        'Seleciona um elemento pelo ID'
-      ],
-      correta: 1
-    },
-    {
-      pergunta: 'O que é o conceito de "hoisting" em JavaScript?',
-      respostas: [
-        'Eleva uma variável ou função para o topo de seu contexto de execução',
-        'Move uma variável ou função para o final de seu contexto de execução',
-        'Remove uma variável ou função do contexto de execução'
-      ],
-      correta: 0
-    },
-    {
-      pergunta: 'Qual é a diferença entre "let" e "const" na declaração de variáveis?',
-      respostas: [
-        'let é usado para variáveis de escopo local, enquanto const é usado para variáveis de escopo global',
-        'let permite a reatribuição de valores, enquanto const cria variáveis imutáveis',
-        'let e const são equivalentes e podem ser usados de forma intercambiável'
-      ],
-      correta: 1
-    },
-    {
-      pergunta: 'Como você previne a propagação de eventos em JavaScript?',
-      respostas: [
-        'event.stopPropagation()',
-        'event.preventDefault()',
-        'event.stop()'
-      ],
-      correta: 0
-    },
-    {
-      pergunta: 'O que é o conceito de "callback" em JavaScript?',
-      respostas: [
-        'Uma função que é passada como argumento para outra função e é executada posteriormente',
-        'Um método que retorna um valor booleano',
-        'Um evento acionado por um clique do mouse'
-      ],
-      correta: 0
-    },
-  ];
+const perguntas = [
+  {
+    pergunta: 'Qual é o nome do personagem principal do Minecraft?',
+    respostas: [
+      'Andrew',
+      'Steve',
+      'Stone'
+    ],
+    correta: 1
+  },
+  {
+    pergunta: 'Qual bloco é usado para criar portais para o Nether?',
+    respostas: [
+      'Bloco de Ouro',
+      'Bloco de Redstone',
+      'Obsidiana'
+    ],
+    correta: 2
+  },
+  {
+    pergunta: 'O que é necessário para domesticar um lobo em Minecraft?',
+    respostas: [
+      'Peixe',
+      'Carne Crua',
+      'Ossos'
+    ],
+    correta: 2
+  },
+  {
+    pergunta: 'Qual é o nome do dragão final em Minecraft?',
+    respostas: [
+      'Ender Dragon',
+      'Nether Dragon',
+      'Wither Dragon'
+    ],
+    correta: 0
+  },
+  {
+    pergunta: 'Como se chama o recurso usado para criar poções em Minecraft?',
+    respostas: [
+      'Essência Mágica',
+      'Pó de Bruxa',
+      'Pó de Blaze'
+    ],
+    correta: 2
+  },
+  {
+    pergunta: 'Qual ferramenta é mais eficaz para quebrar blocos de pedra em Minecraft?',
+    respostas: [
+      'Pá',
+      'Machado',
+      'Picareta'
+    ],
+    correta: 2
+  },
+  {
+    pergunta: 'O que acontece quando você dorme em uma cama em Minecraft?',
+    respostas: [
+      'Cura a fome do jogador',
+      'Define o ponto de respawn do jogador',
+      'Invoca monstros'
+    ],
+    correta: 1
+  },
+  {
+    pergunta: 'Qual é o nome do criador de Minecraft?',
+    respostas: [
+      'Notch',
+      'David',
+      'Alex'
+    ],
+    correta: 0
+  },
+  {
+    pergunta: 'Qual desses minérios é necessario uma fornalha ',
+    respostas: [
+      'Diamante',
+      'Ferro',
+      'Esmeralda'
+    ],
+    correta: 1
+  },
+  {
+    pergunta: 'Qual é a receita básica para criar uma tocha em Minecraft?',
+    respostas: [
+      'Carvão + Bastão',
+      'Pó de Redstone + Madeira',
+      'Pedra + Vara'
+    ],
+    correta: 0
+  },
+];
   
   const quiz = document.querySelector('#quiz') 
   // quiz armazena a div quiz
